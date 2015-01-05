@@ -1,0 +1,87 @@
+
+.header {
+	height: 2.2em;
+	background: #d5d7d9;
+	text-align: center;
+	min-width: 650px;
+	width: 100%;
+}
+.header h1 {
+	color: #58585B;
+	font-size: 1.2em;
+	font-family: "AzoSansMedium", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+	padding-top: 0.3em;
+}
+
+.nav {
+	height: 3.5em;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.nav li {
+	display: inline-block;
+	padding-right: 4.5em;
+	padding-top: 1.2em;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #939597;
+	font-family: "AzoSans";
+	-webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.nav a:hover {
+	color: #00B8BB;
+	border-bottom: 0.16em solid #EE3268;
+}
+
+.bodyone {
+	width: 100%;
+	background-color:  #00B8BB;
+	background: url("../images/car.jpg");
+}
+
+.bodyone ul {
+	background: #d5d7d9;
+	width: 20%;
+	display: inline-block;
+	margin-right: 3em;
+	
+}
+
+.bodyone ul:first-child, .bodyone ul:nth-child(5) {
+	margin-left: 7em;
+}
+
+.bodyone a{
+	text-decoration: none;
+}
+.bodyone p{
+	text-align: center;
+	color: #939597;
+	font-family: "AzoSansMedium", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+	font-size: 0.9em;
+}
+
+.bodyone h1{
+	text-align: center;
+	color: #58585B;
+	font-family: "AzoSansMedium", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+	font-weight: bold;
+
+}
+.bodyone hr{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #EE3268;
+}
+
+
+
